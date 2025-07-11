@@ -1,0 +1,11 @@
+import React from "react";
+import './Home.css';
+function Home(){
+    return(
+      <>
+        <h3>Instagram</h3>
+      </>
+    );
+}
+
+export default Home;
