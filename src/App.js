@@ -1,4 +1,5 @@
 import React from 'react'
+import Sidebar from './Sidebar/Sidebar';
 function App() {
   return (
     <>
@@ -6,10 +7,10 @@ function App() {
         <div className='container'>
           <div className='row'>
             <div className='col-md-12'>
-              <div className='d-flex vh-100 justify-content-between'>
-                <div>Sidebar</div>
-                <div>Feed</div>
-                <div>Suggestions</div>
+              <div className='d-flex vh-100'>
+                <div className='w-20'><Sidebar/></div>
+                <div className='w-50 bg-info'>Feed</div>
+                <div className='w-30'>Suggestions</div>
               </div>
             </div>
            
@@ -20,5 +21,5 @@ function App() {
     </>
   )
 }
-
+/*w-25 w-50 w-75 w-100*/
 export default App;
